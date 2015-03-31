@@ -14,6 +14,7 @@
 		18E072241ACB130600DEAE51 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18E072231ACB130600DEAE51 /* Images.xcassets */; };
 		18E072271ACB130600DEAE51 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18E072251ACB130600DEAE51 /* LaunchScreen.xib */; };
 		18E072331ACB130600DEAE51 /* ReachabilityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E072321ACB130600DEAE51 /* ReachabilityTests.m */; };
+		18E0723E1ACB132700DEAE51 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E0723D1ACB132700DEAE51 /* Reachability.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		18E0722C1ACB130600DEAE51 /* ReachabilityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReachabilityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18E072311ACB130600DEAE51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18E072321ACB130600DEAE51 /* ReachabilityTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReachabilityTests.m; sourceTree = "<group>"; };
+		18E0723C1ACB132700DEAE51 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		18E0723D1ACB132700DEAE51 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				18E0721B1ACB130600DEAE51 /* AppDelegate.m */,
 				18E0721D1ACB130600DEAE51 /* ViewController.h */,
 				18E0721E1ACB130600DEAE51 /* ViewController.m */,
+				18E0723C1ACB132700DEAE51 /* Reachability.h */,
+				18E0723D1ACB132700DEAE51 /* Reachability.m */,
 				18E072161ACB130600DEAE51 /* Supporting Files */,
 			);
 			path = Reachability;
@@ -221,6 +226,7 @@
 			files = (
 				18E0721F1ACB130600DEAE51 /* ViewController.m in Sources */,
 				18E0721C1ACB130600DEAE51 /* AppDelegate.m in Sources */,
+				18E0723E1ACB132700DEAE51 /* Reachability.m in Sources */,
 				18E072191ACB130600DEAE51 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
